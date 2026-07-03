@@ -1,0 +1,4 @@
+backup.env.txt
+backup-log.txt
+restore-test/
+bin/
