@@ -175,7 +175,7 @@ setlocal enabledelayedexpansion
 
 set RESTIC_EXE=E:\BackUP\bin\restic.exe
 set ENV_FILE=E:\BackUP\backup.env.txt
-set BACKUP_PATH=E:\ToBackup
+set BACKUP_PATH=E:\BackUP\ToBackup
 set LOG_FILE=E:\BackUP\backup-log.txt
 
 for /f "usebackq tokens=1,2 delims==" %%A in ("%ENV_FILE%") do (
