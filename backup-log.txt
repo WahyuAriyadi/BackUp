@@ -1,0 +1,129 @@
+[03/07/2026 18:04:04,18] Backup dimulai 
+E:\ToBackup does not exist, skipping
+Fatal: all source directories/files do not exist
+[03/07/2026 18:04:04,21] Backup GAGAL - kode error 1 
+Fatal: wrong password or no key found
+[03/07/2026 18:04:08,12] Selesai 
+---------------------------------------- 
+[03/07/2026 18:06:47,34] Backup dimulai 
+E:\ToBackup does not exist, skipping
+Fatal: all source directories/files do not exist
+[03/07/2026 18:06:47,37] Backup GAGAL - kode error 1 
+Fatal: wrong password or no key found
+[03/07/2026 18:06:52,44] Selesai 
+---------------------------------------- 
+[03/07/2026 18:07:27,31] Backup dimulai 
+E:\ToBackup does not exist, skipping
+Fatal: all source directories/files do not exist
+[03/07/2026 18:07:27,35] Backup GAGAL - kode error 1 
+Fatal: wrong password or no key found
+[03/07/2026 18:07:34,40] Selesai 
+---------------------------------------- 
+[03/07/2026 18:08:57,34] Backup dimulai 
+Fatal: wrong password or no key found
+[03/07/2026 18:09:05,01] Backup GAGAL - kode error 12 
+Fatal: wrong password or no key found
+[03/07/2026 18:09:12,40] Selesai 
+---------------------------------------- 
+[03/07/2026 18:12:58,16] Backup dimulai 
+no parent snapshot found, will read all files
+
+Files:           0 new,     0 changed,     0 unmodified
+Dirs:            3 new,     0 changed,     0 unmodified
+Added to the repository: 1.868 KiB (1.304 KiB stored)
+
+processed 0 files, 0 B in 0:01
+snapshot 74d4d1c2 saved
+[03/07/2026 18:13:06,67] Backup SUKSES 
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 1 snapshots:
+ID        Time                 Host        Tags        Reasons           Paths                     Size
+--------------------------------------------------------------------------------------------------------------
+c5e9eebc  2026-07-03 16:44:32  Zepyhr                  daily snapshot    C:\Users\wahyu\Documents  272.005 MiB
+                                                       weekly snapshot   C:\Users\wahyu\Pictures
+                                                       monthly snapshot
+--------------------------------------------------------------------------------------------------------------
+1 snapshots
+
+keep 1 snapshots:
+ID        Time                 Host        Tags        Reasons           Paths               Size
+-------------------------------------------------------------------------------------------------
+74d4d1c2  2026-07-03 18:12:58  Zepyhr                  daily snapshot    E:\BackUP\ToBackup  0 B
+                                                       weekly snapshot
+                                                       monthly snapshot
+-------------------------------------------------------------------------------------------------
+1 snapshots
+
+[03/07/2026 18:13:13,41] Selesai 
+---------------------------------------- 
+[03/07/2026 18:21:49,74] Backup dimulai 
+using parent snapshot 74d4d1c2
+
+Files:           0 new,     0 changed,     0 unmodified
+Dirs:            0 new,     0 changed,     3 unmodified
+Added to the repository: 0 B   (0 B   stored)
+
+processed 0 files, 0 B in 0:00
+snapshot a2949b4d saved
+[03/07/2026 18:22:01,08] Backup SUKSES 
+signal terminated received, cleaning up
+Fatal: unable to open repository at b2:ProjectDevopsPertama:laptop: b2.NewClient: context canceled
+[03/07/2026 18:39:21,40] Backup dimulai 
+using parent snapshot a2949b4d
+
+Files:           0 new,     0 changed,     0 unmodified
+Dirs:            0 new,     0 changed,     3 unmodified
+Added to the repository: 0 B   (0 B   stored)
+
+processed 0 files, 0 B in 0:00
+snapshot f9628f18 saved
+[03/07/2026 18:39:28,89] Backup SUKSES 
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 2 snapshots:
+ID        Time                 Host        Tags        Reasons           Paths               Size
+-------------------------------------------------------------------------------------------------
+74d4d1c2  2026-07-03 18:12:58  Zepyhr                  daily snapshot    E:\BackUP\ToBackup  0 B
+                                                       weekly snapshot
+                                                       monthly snapshot
+f9628f18  2026-07-03 18:39:21  Zepyhr                  daily snapshot    E:\BackUP\ToBackup  0 B
+                                                       weekly snapshot
+                                                       monthly snapshot
+-------------------------------------------------------------------------------------------------
+2 snapshots
+
+remove 1 snapshots:
+ID        Time                 Host        Tags        Paths               Size
+-------------------------------------------------------------------------------
+a2949b4d  2026-07-03 18:21:49  Zepyhr                  E:\BackUP\ToBackup  0 B
+-------------------------------------------------------------------------------
+1 snapshots
+
+keep 1 snapshots:
+ID        Time                 Host        Tags        Reasons           Paths                     Size
+--------------------------------------------------------------------------------------------------------------
+c5e9eebc  2026-07-03 16:44:32  Zepyhr                  daily snapshot    C:\Users\wahyu\Documents  272.005 MiB
+                                                       weekly snapshot   C:\Users\wahyu\Pictures
+                                                       monthly snapshot
+--------------------------------------------------------------------------------------------------------------
+1 snapshots
+
+[0:00] 100.00%  1 / 1 files deleted
+1 snapshots have been removed, running prune
+loading indexes...
+loading all snapshots...
+finding data that is still in use for 3 snapshots
+[0:00] 100.00%  3 / 3 snapshots
+searching used packs...
+collecting packs for deletion and repacking
+[0:00] 100.00%  17 / 17 packs processed
+
+to repack:             0 blobs / 0 B
+this removes:          0 blobs / 0 B
+to delete:             0 blobs / 0 B
+total prune:           0 blobs / 0 B
+remaining:           363 blobs / 244.108 MiB
+unused size after prune: 0 B (0.00% of remaining size)
+
+done
+[03/07/2026 18:39:38,25] Selesai 
+---------------------------------------- 
