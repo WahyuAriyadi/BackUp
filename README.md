@@ -60,7 +60,7 @@ No always-on server. No paid subscription. No manual babysitting.
 
 ```mermaid
 flowchart LR
-    A[Local Folder<br/>e.g. E:\ToBackup] -->|restic backup| B[Windows Task Scheduler<br/>Daily Trigger]
+    A[Local Folder<br/>e.g. E:\BackUP\ToBackup] -->|restic backup| B[Windows Task Scheduler<br/>Daily Trigger]
     B --> C[run-backup.bat]
     C --> D[restic: backup + encrypt]
     D --> E[(Backblaze B2<br/>Encrypted Repository)]
